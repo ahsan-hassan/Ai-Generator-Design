@@ -138,3 +138,41 @@ input {
     background-color: #f8f8f8;
     border-top: 1px solid #ddd;
   } */
+
+  @media screen and (min-width: 350px) and (max-width: 550px) {
+
+    .nav ,.sign-in {
+      display:none;
+    }
+    
+    .main h1 {
+      /* text-align:center; */
+      font-size:20px;
+    }
+    
+    .description {
+      padding: 0px 0px;
+      font-size: 11px;
+    }
+
+    input {
+      width: 350px; 
+      padding: 15px;
+    }
+
+    .generate_btn {
+      right: 5px;
+  }
+    .categories {
+      display:none;
+    }
+    .card {
+      width: 130px;
+  }
+
+  .card p {
+    margin-top: -50px;
+    font-size: 10px;
+    color:white;
+  }
+} 

@@ -29,12 +29,18 @@ body {
     align-items: center;
   }
 
+  .nav a {
+    text-decoration:none;
+    color:#222222;
+  }
+
   
   .nav ul {
     list-style: none;
     display: flex;
     font-size:16px;
     gap: 20px;
+    color:#222222;
   }
   
   .nav li {
@@ -127,6 +133,18 @@ input {
     overflow: hidden;
   }
 
+  .card2 {
+    position: relative;
+    width: 100%;
+    max-width: 105px;
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  .card2 img {
+    width:100%;
+  }
+
   .card img {
     width: 100%;
     display: block;
@@ -149,6 +167,71 @@ input {
 
   .card p {
     color:#222222;
+  }
+
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .image-preview {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .controls {
+    width: 315px;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+  }
+  
+  .controls textarea {
+    width: 100%;
+    height: 100px;
+    border-color:#DB2268;
+    border-radius:5px;
+    padding:5px;
+  }
+  
+  .controls .settings {
+    margin-bottom: 20px;
+  }
+
+  .settings p {
+    margin: 0px;
+    text-align: center;
+    font-size: 12px;
+    color: #DB2268;
+}
+  
+  .controls .generate-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .styles {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:5px;
+  }
+
+  .card3 img {
+    width:100px;
   }
   
 

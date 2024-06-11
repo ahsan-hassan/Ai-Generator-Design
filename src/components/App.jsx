@@ -1,16 +1,20 @@
 import React from 'react';
-import Header from './Header';
-import Main from './Main';
-// import Footer from './Footer';
-import  '../styles.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from '../pages/Home';
+import TextToImage from '../pages/Text_to_image';
+import '../styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Main />
-      {/* <Footer /> */}
-    </div>
+    
+    <BrowserRouter>
+
+
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/text" element={<TextToImage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

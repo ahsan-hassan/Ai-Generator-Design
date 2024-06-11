@@ -202,17 +202,16 @@ input {
     border-radius:5px;
     padding:5px;
   }
-  
-  .controls .settings {
-    margin-bottom: 20px;
+
+  .settings {
+    display: flex;
+    justify-content: center;
+    font-size:12px;
+    align-items:center;
+    color: #FA5711;
+    text-align: center;
   }
 
-  .settings p {
-    margin: 0px;
-    text-align: center;
-    font-size: 12px;
-    color: #DB2268;
-}
   
   .controls .generate-btn {
     width: 100%;
@@ -233,7 +232,38 @@ input {
   .card3 img {
     width:100px;
   }
-  
+
+  .aspect-ratio-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px
+  }
+
+    
+  .icon-text-button {
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+    width: 45px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon-text-button.active {
+    color:#FA5711;
+  }
+
+  .ratio {
+    font-size:12px;
+  }
+
+  .ratiotype {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+  }
 
 
   /* .footer {

@@ -289,7 +289,7 @@ input {
     align-items: center;
   }
 
-  .icon-text-button.active {
+  .icon-text-button.active,.footer-item-content.active {
     color:#FA5711;
   }
 
@@ -345,6 +345,39 @@ input {
     border-color:#FA5711;
     background-color:#ffded0;
   }
+
+  .footer-container {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color:#FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1111111;
+  }
+
+  .footer a {
+    text-decoration:none;
+    color:#666666;
+  }
+  
+
+  .footer-item {
+    color:#666666;
+  }
+
+  .footer-text {
+    font-size:10px;
+  }
+  
 
 
   /* .footer {
@@ -411,6 +444,9 @@ input {
 
     .card3 img {
       width:125px;
+    }
+    .footer-container {
+      display: block; 
     }
 } 
 

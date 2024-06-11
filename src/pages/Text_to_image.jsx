@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar';
 import ImagePreview from '../components/ImagePreview';
 import DashboardHeader from '../components/DashboardHeader';
 import RightBar from '../components/Controls';
+import Footer from '../components/Footer';
 
 // import Controls from './Controls';
 
@@ -14,6 +15,7 @@ const TextToImage = () => {
             <Sidebar />
             <ImagePreview />
             <RightBar/>
+            <Footer />
         </div>
     </div>
     
